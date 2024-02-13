@@ -4,6 +4,8 @@ resources:
 bases:
 - ../../base
 
+namespace: dev
+
 patches:
 - replicas.yaml
 
