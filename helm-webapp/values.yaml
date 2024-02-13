@@ -2,8 +2,6 @@ appName: myhelmapp
 
 port: 80
 
-replicas:5
-
 configmap:
   name: myhelmapp-configmap-v1
   data:
@@ -12,3 +10,5 @@ configmap:
 image:
   name: devopsjourney1/mywebapp
   tag: latest
+
+replicas: 5
